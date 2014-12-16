@@ -14,3 +14,8 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl2'});
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
+
+
+angular.module('myApp', [
+	'myApp.controllers'
+]);
