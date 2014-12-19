@@ -17,5 +17,5 @@ config(['$routeProvider', function($routeProvider) {
 
 
 angular.module('myApp', [
-	'myApp.controllers'
+  'myApp.controllers'
 ]);
